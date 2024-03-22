@@ -1,0 +1,29 @@
+.bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 4rem 0rem 4rem;
+    img{
+        width: 10rem;
+    }
+}
+.text_bar{
+    display: flex;
+    gap: 1rem;
+    a{
+        color: red;
+        text-decoration: none;
+    }
+}
+.text_bar a.active{
+    text-decoration: underline;
+}
+@media (max-width: 425px) {
+    .bar{
+        margin: 1rem 1rem;
+        img{
+            width: 40%;
+        }
+    }
+}

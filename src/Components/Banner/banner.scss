@@ -1,0 +1,15 @@
+.banner{
+    margin: 2rem 0rem;
+    object-fit: cover;
+    border-radius: 20px;
+    img{
+        filter: brightness(60%);
+    }
+    p{
+        z-index: 100;
+    }
+}
+@media (max-width: 425px){
+header {
+    margin: 0rem 1rem 2rem 1rem;
+}}

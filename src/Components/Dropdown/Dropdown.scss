@@ -1,0 +1,47 @@
+.dropdown-content {
+    padding: 10px; /* Ajoute un peu d'espace intérieur */
+    z-index: 1;
+    background-color: #f9f9f9;
+    color: #FF6060;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.dropdown-btn {
+    background-color: #FF6060;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    height: 3rem;
+    text-align: start;
+    border-radius: 5px;
+    margin: 2rem 0rem 0rem 0rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style for the dropdown items */
+.dropdown-item {
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style for the dropdown items on hover */
+.dropdown-item:hover {
+    background-color: #ddd;
+}
+
+.dropdown-btn i {
+    transition: transform 0.3s ease; /* Ajoute une transition d'animation à la propriété de transformation */
+}
+
+.dropdown-btn.rotate-up i {
+    transform: rotate(180deg); /* Fait tourner l'icône de 180 degrés vers le haut */
+}

@@ -1,0 +1,17 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 0rem 0rem;
+    p{
+        color: white;
+    }
+    img{
+        height: auto;
+        width: 7rem;
+        object-fit: cover;
+        filter: brightness(100);
+    }
+}
