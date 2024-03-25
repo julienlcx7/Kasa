@@ -38,10 +38,10 @@
     background-color: #ddd;
 }
 
-.dropdown-btn i {
+.dropdown-btn svg {
     transition: transform 0.3s ease; /* Ajoute une transition d'animation à la propriété de transformation */
 }
 
-.dropdown-btn.rotate-up i {
+.dropdown-btn.rotate-up svg {
     transform: rotate(180deg); /* Fait tourner l'icône de 180 degrés vers le haut */
 }
